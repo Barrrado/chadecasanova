@@ -259,19 +259,19 @@ h2 {
 }
 
 .card-cozinha::before {
-  background-image: url("./cozinha.png");
+  background-image: url("./img/cozinha.png");
 }
 
 .card-banheiro::before {
-  background-image: url("./banheiro.png");
+  background-image: url("./img/banheiro.png");
 }
 
 .card-quarto::before {
-  background-image: url("./quarto.png");
+  background-image: url("./img/quarto.png");
 }
 
 .card-extras::before {
-  background-image: url("./utilidades.png");
+  background-image: url("./img/utilidades.png");
 }
 
 .list-card:hover {
