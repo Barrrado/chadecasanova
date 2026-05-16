@@ -50,6 +50,25 @@ body::after {
   z-index: -1;
 }
 
+
+.gift-item {
+  transition: 0.3s ease;
+}
+
+.gift-item.reservado {
+  text-decoration: line-through;
+  color: #999;
+  opacity: 0.6;
+  position: relative;
+}
+
+.gift-item.reservado::after {
+  content: " ✓ Reservado";
+  color: #b30018;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
 /* HERO */
 
 .hero {
@@ -100,10 +119,12 @@ body::after {
 }
 
 @keyframes float {
+
   0%,
   100% {
     transform: translateY(0px);
   }
+
   50% {
     transform: translateY(-10px);
   }
@@ -117,6 +138,7 @@ body::after {
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
+
 .spanh1 {
   color: var(--gold);
   font-size: 2.3rem;
@@ -124,9 +146,11 @@ body::after {
   font-weight: 500;
   font-family: "Great Vibes", cursive;
 }
+
 .h1center {
   text-align: center;
 }
+
 h1 {
   color: var(--red);
   font-size: 4.2rem;
@@ -406,6 +430,7 @@ footer {
     opacity: 0;
     transform: translateY(40px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
