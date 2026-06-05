@@ -5,11 +5,13 @@
 }
 
 :root {
-  --red: #b30018;
+  --red: #5e883b;
   --gold: #c89b3c;
   --black: #111;
-  --white: #fffaf7;
+  --white: #fff2db;
   --soft: #fff3ef;
+  --verde: #4c702f;
+  --verde-claro: #a8d5a8;
 }
 
 html {
@@ -29,7 +31,7 @@ body::before {
   position: fixed;
   width: 500px;
   height: 500px;
-  background: rgba(179, 0, 24, 0.08);
+  background: rgba(250, 249, 218, 0.808);
   border-radius: 50%;
   top: -200px;
   right: -150px;
@@ -64,7 +66,7 @@ body::after {
 
 .gift-item.reservado::after {
   content: " ✓ Reservado";
-  color: #b30018;
+  color: #4c702f;
   font-weight: bold;
   margin-left: 8px;
 }
@@ -93,7 +95,7 @@ body::after {
 
 .top-line {
   height: 12px;
-  background: linear-gradient(90deg, var(--red), #d91e36, var(--gold));
+  background: linear-gradient(90deg, var(--red), var(--verde), var(--gold));
 }
 
 .hero-content {
@@ -190,7 +192,7 @@ h2 {
 
 .info-card {
   background: var(--soft);
-  border: 2px solid rgba(179, 0, 24, 0.15);
+  border: 2px solid rgba(120, 158, 50, 0.15);
   border-radius: 18px;
   padding: 20px;
   transition: 0.4s;
@@ -198,7 +200,7 @@ h2 {
 
 .info-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 15px 30px rgba(179, 0, 24, 0.1);
+  box-shadow: 0 15px 30px rgba(120, 158, 50, 0.15);
 }
 
 .info-card h3 {
@@ -247,7 +249,7 @@ h2 {
 
 .list-card {
   background: white;
-  border: 2px solid rgba(179, 0, 24, 0.15);
+  border: 2px solid rgba(185, 224, 94, 0.637);
   border-radius: 25px;
   padding: 30px;
   transition: 0.4s ease;
@@ -342,14 +344,14 @@ h2 {
 .event-box {
   max-width: 950px;
   margin: auto;
-  background: linear-gradient(135deg, var(--red), #870011);
+  background: linear-gradient(135deg, var(--red), #3e7a41);
   color: white;
   border-radius: 35px;
   padding: 60px;
   text-align: center;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 20px 60px rgba(179, 0, 24, 0.25);
+  box-shadow: 0 20px 60px rgba(129, 226, 1, 0.25);
 }
 
 .event-box::before {
@@ -420,7 +422,7 @@ footer {
   padding: 35px 20px;
   background: #fff3f3;
   color: #555;
-  border-top: 2px solid rgba(179, 0, 24, 0.08);
+  border-top: 2px solid rgba(101, 143, 73, 0.08);
 }
 
 /* ANIMAÇÃO */
